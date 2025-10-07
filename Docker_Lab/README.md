@@ -3,16 +3,6 @@
 ## Overview
 This lab demonstrates building and running a FastAPI application using Docker containers. The application is a simple Coffee Shops API that performs CRUD operations.
 
-## Project Structure
-
-Lab 2/
-├── src/
-│   └── main.py              # FastAPI application code
-├── results/                  # Screenshots and output results
-├── Dockerfile               # Docker configuration
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
-
 ## Application Details
 This is a RESTful API for managing Boston coffee shops with the following endpoints:
 
