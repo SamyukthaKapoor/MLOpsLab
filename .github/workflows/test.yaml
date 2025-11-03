@@ -21,5 +21,6 @@ jobs:
     
     - name: Run tests
       run: |
+        cd Github_Lab
         export PYTHONPATH="${PYTHONPATH}:./src"
         pytest tests/test_main.py -v 
