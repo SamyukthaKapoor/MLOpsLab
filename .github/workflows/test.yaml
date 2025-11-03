@@ -21,4 +21,5 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest tests/ -v
+        export PYTHONPATH="${PYTHONPATH}:./src"
+        pytest tests/test_main.py -v 
