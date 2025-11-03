@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 import uvicorn
 
-# CoffeeShop model using Pydantic for request/response validation.
+# CoffeeShop model using Pydantic for request/response validation
 class CoffeeShop(BaseModel):
     id: str
     name: str
