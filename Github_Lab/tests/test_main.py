@@ -239,7 +239,7 @@ def test_multiple_items_isolation():
     assert item3_data["name"] == "Item 3"
     assert item3_data["description"] == "Desc 3"
 
-# failing a test on purpose
+# failing a test on purpose --> fixed
 
 def test_update_item_not_found():
     """Test updating non-existent item returns 404"""
@@ -248,4 +248,4 @@ def test_update_item_not_found():
         json={"name": "Test", "description": "Test"}
     )
     assert response.status_code == 404
-    assert response.json()["detail"] == "Item found"
+    assert response.json()["detail"] == "Item not found"
