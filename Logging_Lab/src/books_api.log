@@ -1,0 +1,100 @@
+INFO | 2025-11-17 19:07:55,352 | books_api | Books API initialized with 3 books
+INFO | 2025-11-17 19:07:55,354 | books_api | Starting Books API server on http://0.0.0.0:8080
+DEBUG | 2025-11-17 19:07:55,354 | books_api | calculate_average_price() called
+INFO | 2025-11-17 19:07:55,354 | books_api | Average book price: $13.99
+ERROR | 2025-11-17 19:07:55,354 | books_api | Exception occurred in calculate_average_price() function
+Traceback (most recent call last):
+  File "/Users/samyukthakapoor/Desktop/MLOpsLab/Logging_Lab/src/main.py", line 147, in calculate_average_price
+    print(test_list[10])  # IndexError instead of ZeroDivisionError
+          ~~~~~~~~~^^^^
+IndexError: list index out of range
+DEBUG | 2025-11-17 19:07:55,355 | asyncio | Using selector: KqueueSelector
+DEBUG | 2025-11-17 19:08:30,654 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:08:30,655 | books_api | GET /books - Returning 3 books
+DEBUG | 2025-11-17 19:08:41,595 | books_api | Processing new book addition: {'id': '4', 'title': 'War and Peace', 'author': 'Leo Tolstoy', 'price': 18.99, 'pages': 2500}
+WARNING | 2025-11-17 19:08:41,595 | books_api | Unusually high page count detected: 2500 pages for book 'War and Peace'
+INFO | 2025-11-17 19:08:41,595 | books_api | POST /books - Successfully added: 'War and Peace' by Leo Tolstoy
+DEBUG | 2025-11-17 19:08:46,710 | books_api | Searching for book with ID: 999
+ERROR | 2025-11-17 19:08:46,710 | books_api | GET /books/999 - Book not found in database
+DEBUG | 2025-11-17 19:09:22,012 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:09:22,013 | books_api | GET /books - Returning 4 books
+DEBUG | 2025-11-17 19:09:23,859 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:09:23,859 | books_api | GET /books - Returning 4 books
+DEBUG | 2025-11-17 19:10:25,576 | books_api | Searching for book with ID: docs
+ERROR | 2025-11-17 19:10:25,577 | books_api | GET /books/docs - Book not found in database
+DEBUG | 2025-11-17 19:10:27,942 | books_api | Searching for book with ID: docs
+ERROR | 2025-11-17 19:10:27,942 | books_api | GET /books/docs - Book not found in database
+INFO | 2025-11-17 19:12:30,612 | books_api | Books API initialized with 3 books
+INFO | 2025-11-17 19:12:30,613 | books_api | Starting Books API server on http://0.0.0.0:8080
+DEBUG | 2025-11-17 19:12:30,613 | books_api | calculate_average_price() called
+INFO | 2025-11-17 19:12:30,613 | books_api | Average book price: $13.99
+ERROR | 2025-11-17 19:12:30,614 | books_api | Exception occurred in calculate_average_price() function
+Traceback (most recent call last):
+  File "/Users/samyukthakapoor/Desktop/MLOpsLab/Logging_Lab/src/main.py", line 147, in calculate_average_price
+    print(test_list[10])  # IndexError instead of ZeroDivisionError
+          ~~~~~~~~~^^^^
+IndexError: list index out of range
+DEBUG | 2025-11-17 19:12:30,615 | asyncio | Using selector: KqueueSelector
+DEBUG | 2025-11-17 19:15:42,025 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:15:42,025 | books_api | GET /books - Returning 3 books
+DEBUG | 2025-11-17 19:17:14,431 | books_api | Processing new book addition: {'id': '4', 'title': 'War and Peace', 'author': 'Leo Tolstoy', 'price': 18.99, 'pages': 2500}
+WARNING | 2025-11-17 19:17:14,431 | books_api | Unusually high page count detected: 2500 pages for book 'War and Peace'
+INFO | 2025-11-17 19:17:14,431 | books_api | POST /books - Successfully added: 'War and Peace' by Leo Tolstoy
+DEBUG | 2025-11-17 19:19:45,682 | books_api | Processing new book addition: {'id': '4', 'title': 'War and Peace', 'author': 'Leo Tolstoy', 'price': 18.99, 'pages': 2500}
+WARNING | 2025-11-17 19:19:45,683 | books_api | Unusually high page count detected: 2500 pages for book 'War and Peace'
+WARNING | 2025-11-17 19:19:45,683 | books_api | Duplicate book ID detected: 4. Replacing existing entry.
+INFO | 2025-11-17 19:19:45,683 | books_api | POST /books - Successfully added: 'War and Peace' by Leo Tolstoy
+INFO | 2025-11-17 19:21:33,007 | books_api | Books API initialized with 3 books
+INFO | 2025-11-17 19:21:33,009 | books_api | Starting Books API server on http://0.0.0.0:8080
+DEBUG | 2025-11-17 19:21:33,009 | books_api | calculate_average_price() called
+INFO | 2025-11-17 19:21:33,009 | books_api | Average book price: $13.99
+ERROR | 2025-11-17 19:21:33,009 | books_api | Exception occurred in calculate_average_price() function
+Traceback (most recent call last):
+  File "/Users/samyukthakapoor/Desktop/MLOpsLab/Logging_Lab/src/main.py", line 147, in calculate_average_price
+    print(test_list[10])  # IndexError instead of ZeroDivisionError
+          ~~~~~~~~~^^^^
+IndexError: list index out of range
+DEBUG | 2025-11-17 19:21:33,011 | asyncio | Using selector: KqueueSelector
+DEBUG | 2025-11-17 19:22:55,495 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:22:55,496 | books_api | GET /books - Returning 3 books
+INFO | 2025-11-17 19:23:49,487 | books_api | Books API initialized with 3 books
+INFO | 2025-11-17 19:23:49,489 | books_api | Starting Books API server on http://0.0.0.0:8080
+DEBUG | 2025-11-17 19:23:49,489 | books_api | calculate_average_price() called
+INFO | 2025-11-17 19:23:49,489 | books_api | Average book price: $13.99
+ERROR | 2025-11-17 19:23:49,489 | books_api | Exception occurred in calculate_average_price() function
+Traceback (most recent call last):
+  File "/Users/samyukthakapoor/Desktop/MLOpsLab/Logging_Lab/src/main.py", line 147, in calculate_average_price
+    print(test_list[10])  # IndexError instead of ZeroDivisionError
+          ~~~~~~~~~^^^^
+IndexError: list index out of range
+DEBUG | 2025-11-17 19:23:49,490 | asyncio | Using selector: KqueueSelector
+DEBUG | 2025-11-17 19:24:21,741 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:24:21,742 | books_api | GET /books - Returning 3 books
+DEBUG | 2025-11-17 19:30:10,297 | books_api | Attempting to update book with ID: 10
+ERROR | 2025-11-17 19:30:10,298 | books_api | PUT /books/10 - Book not found for update
+DEBUG | 2025-11-17 19:30:12,557 | books_api | Attempting to update book with ID: 10
+ERROR | 2025-11-17 19:30:12,558 | books_api | PUT /books/10 - Book not found for update
+DEBUG | 2025-11-17 19:30:34,172 | books_api | Searching for book with ID: 10
+ERROR | 2025-11-17 19:30:34,172 | books_api | GET /books/10 - Book not found in database
+DEBUG | 2025-11-17 19:30:36,172 | books_api | Searching for book with ID: 10
+ERROR | 2025-11-17 19:30:36,172 | books_api | GET /books/10 - Book not found in database
+DEBUG | 2025-11-17 19:31:04,054 | books_api | Processing new book addition: {'id': '34', 'title': 'string', 'author': 'string', 'price': 0.0, 'pages': 0}
+INFO | 2025-11-17 19:31:04,055 | books_api | POST /books - Successfully added: 'string' by string
+DEBUG | 2025-11-17 19:31:07,224 | books_api | Processing new book addition: {'id': '34', 'title': 'string', 'author': 'string', 'price': 0.0, 'pages': 0}
+WARNING | 2025-11-17 19:31:07,224 | books_api | Duplicate book ID detected: 34. Replacing existing entry.
+INFO | 2025-11-17 19:31:07,224 | books_api | POST /books - Successfully added: 'string' by string
+DEBUG | 2025-11-17 19:31:36,802 | books_api | Searching for book with ID: 3
+INFO | 2025-11-17 19:31:36,803 | books_api | GET /books/3 - Book found: 'To Kill a Mockingbird'
+DEBUG | 2025-11-17 19:31:37,975 | books_api | Searching for book with ID: 3
+INFO | 2025-11-17 19:31:37,976 | books_api | GET /books/3 - Book found: 'To Kill a Mockingbird'
+DEBUG | 2025-11-17 19:33:13,457 | books_api | Retrieving all books from database
+INFO | 2025-11-17 19:33:13,457 | books_api | GET /books - Returning 5 books
+DEBUG | 2025-11-17 19:34:50,750 | books_api | Processing new book addition: {'id': '4', 'title': 'War and Peace', 'author': 'Leo Tolstoy', 'price': 18.99, 'pages': 2500}
+WARNING | 2025-11-17 19:34:50,750 | books_api | Unusually high page count detected: 2500 pages for book 'War and Peace'
+INFO | 2025-11-17 19:34:50,750 | books_api | POST /books - Successfully added: 'War and Peace' by Leo Tolstoy
+DEBUG | 2025-11-17 19:35:39,632 | books_api | Searching for book with ID: 999
+ERROR | 2025-11-17 19:35:39,632 | books_api | GET /books/999 - Book not found in database
+DEBUG | 2025-11-17 19:36:27,676 | books_api | Attempting to delete book with ID: 2
+INFO | 2025-11-17 19:36:27,677 | books_api | DELETE /books/2 - Successfully removed: '1984'
+DEBUG | 2025-11-17 19:36:44,452 | books_api | Attempting to delete book with ID: 3
+INFO | 2025-11-17 19:36:44,452 | books_api | DELETE /books/3 - Successfully removed: 'To Kill a Mockingbird'
